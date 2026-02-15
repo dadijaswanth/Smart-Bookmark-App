@@ -36,7 +36,7 @@ export default function Home() {
 
         <button
           onClick={loginWithGoogle}
-          className="w-full flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg"
+          className="w-full flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg cursor-pointer"
         >
           <Image
             src="/assets/google-color.svg"

@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <main className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="bg-white shadow-lg rounded-2xl p-8 w-full max-w-md text-center">
-        <h1 className="text-3xl font-bold mb-2">Smart Bookmark App</h1>
+        <h1 className="text-3xl font-bold mb-2  text-black">Smart Bookmark App</h1>
 
         <p className="text-gray-500 mb-6">
           Save and manage your bookmarks privately

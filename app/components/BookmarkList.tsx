@@ -53,10 +53,10 @@ export default function BookmarkList({
 
   return (
     <div className="bg-white rounded-xl shadow p-6">
-      <h2 className="text-xl font-semibold mb-6">Saved Bookmarks</h2>
+      <h2 className="text-xl font-semibold mb-6 text-black">Saved Bookmarks</h2>
 
       {bookmarks.length === 0 && (
-        <p className="text-gray-500">No bookmarks added yet</p>
+        <p className="text-black">No bookmarks added yet</p>
       )}
 
       <div className="space-y-4">
@@ -66,7 +66,7 @@ export default function BookmarkList({
             className="border rounded-lg p-4 flex justify-between items-center"
           >
             <div>
-              <p className="font-semibold">{b.title}</p>
+              <p className="font-semibold text-black">{b.title}</p>
               <a
                 href={b.url}
                 target="_blank"

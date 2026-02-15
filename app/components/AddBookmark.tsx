@@ -39,11 +39,11 @@ export default function AddBookmark({
 
   return (
     <div className="bg-white rounded-xl shadow p-6 h-fit">
-      <h2 className="text-xl font-semibold mb-6">Add New Bookmark</h2>
+      <h2 className="text-xl font-semibold mb-6 text-black">Add New Bookmark</h2>
 
       <div className="space-y-4">
         <div>
-          <label className="block text-sm font-medium mb-1">Title</label>
+          <label className="block text-sm font-medium mb-1 text-black">Title</label>
           <input
             className="w-full border rounded-lg p-2"
             placeholder="Google"
@@ -54,7 +54,7 @@ export default function AddBookmark({
         </div>
 
         <div>
-          <label className="block text-sm font-medium mb-1">URL</label>
+          <label className="block text-sm font-medium mb-1 text-black">URL</label>
           <input
             className="w-full border rounded-lg p-2"
             placeholder="https://google.com"

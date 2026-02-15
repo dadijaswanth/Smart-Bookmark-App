@@ -16,8 +16,9 @@ export const metadata: Metadata = {
   title: "Smart Bookmark App",
   description: "Bookmark manager",
   viewport: "width=device-width, initial-scale=1",
-  colorScheme: "dark",
+  colorScheme: "light",   // ✅ FIX
 };
+
 
 export default function RootLayout({
   children,
@@ -25,9 +26,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="light">
+
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-100 text-gray-900`}
       >
         {children}
       </body>

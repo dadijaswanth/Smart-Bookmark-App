@@ -53,7 +53,7 @@ export default function BookmarkList({
 
   return (
     <div className="bg-white rounded-xl shadow p-6">
-      <h2 className="text-xl font-semibold mb-6 text-black">Saved Bookmarks</h2>
+      <h2 className="text-xl mb-6 text-black">Saved Bookmarks</h2>
 
       {bookmarks.length === 0 && (
         <p className="text-black">No bookmarks added yet</p>

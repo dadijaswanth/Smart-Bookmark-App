@@ -6,7 +6,8 @@ A simple full-stack bookmark manager built using Next.js, Supabase, Google OAuth
 Vercel URL: https://your-vercel-link.vercel.app
 
 ## 📦 GitHub Repo
-[https://github.com/your-username/smart-bookmark-app](https://github.com/dadijaswanth/Smart-Bookmark-App.git]
+https://github.com/dadijaswanth/Smart-Bookmark-App.git
+
 
 ---
 
@@ -62,5 +63,6 @@ Table: `bookmarks`
 ### 1️⃣ Clone the repo
 
 ```bash
-[git clone https://github.com/your-username/smart-bookmark-app.git](https://github.com/dadijaswanth/Smart-Bookmark-App.git]
+https://github.com/dadijaswanth/Smart-Bookmark-App.git
+
 cd smart-bookmark-app

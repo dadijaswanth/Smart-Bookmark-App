@@ -27,7 +27,7 @@ export default function Home() {
           className="w-full flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg transition duration-200 cursor-pointer"
         >
           <img
-            src="https://www.svgrepo.com/show/475656/google-color.svg"
+            src="/assets/google-color.svg"
             alt="google"
             className="w-5 h-5"
           />

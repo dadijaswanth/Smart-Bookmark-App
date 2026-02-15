@@ -3,7 +3,7 @@
 A simple full-stack bookmark manager built using Next.js, Supabase, Google OAuth, and Tailwind CSS.
 
 ## 🚀 Live Demo
-Vercel URL: https://your-vercel-link.vercel.app
+Vercel URL: [https://your-vercel-link.vercel.app](https://smart-bookmark-app-zeta-dun.vercel.app/]
 
 ## 📦 GitHub Repo
 https://github.com/dadijaswanth/Smart-Bookmark-App.git
